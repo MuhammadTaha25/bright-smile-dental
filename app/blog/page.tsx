@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/config";
@@ -28,23 +29,36 @@ export default async function BlogIndexPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group rounded-2xl border border-neutral-200 bg-white p-6 transition hover:border-brand-300 hover:shadow-md"
+              className="group overflow-hidden rounded-2xl border border-neutral-200 bg-white transition hover:border-brand-300 hover:shadow-md"
             >
-              <p className="text-xs font-medium text-neutral-500">
-                {new Date(post.publishedAt).toLocaleDateString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}{" "}
-                &middot; {post.author}
-              </p>
-              <h2 className="mt-2 text-xl font-semibold text-brand-800 group-hover:text-brand-600">
-                {post.title}
-              </h2>
-              <p className="mt-2 text-sm leading-relaxed text-neutral-600">{post.excerpt}</p>
-              <span className="mt-3 inline-block text-sm font-semibold text-brand-600">
-                Read more →
-              </span>
+              {post.featuredImage && (
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-neutral-100">
+                  <Image
+                    src={post.featuredImage}
+                    alt={post.featuredImageAlt ?? post.title}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 768px) 768px, 100vw"
+                  />
+                </div>
+              )}
+              <div className="p-6">
+                <p className="text-xs font-medium text-neutral-500">
+                  {new Date(post.publishedAt).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}{" "}
+                  &middot; {post.author}
+                </p>
+                <h2 className="mt-2 text-xl font-semibold text-brand-800 group-hover:text-brand-600">
+                  {post.title}
+                </h2>
+                <p className="mt-2 text-sm leading-relaxed text-neutral-600">{post.excerpt}</p>
+                <span className="mt-3 inline-block text-sm font-semibold text-brand-600">
+                  Read more →
+                </span>
+              </div>
             </Link>
           ))}
         </div>

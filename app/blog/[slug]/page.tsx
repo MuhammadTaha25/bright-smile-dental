@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/metadata";
@@ -47,6 +48,19 @@ export default async function BlogPostPage({
           })}{" "}
           &middot; {post.author}
         </p>
+
+        {post.featuredImage && (
+          <div className="relative mt-6 aspect-[16/9] w-full overflow-hidden rounded-2xl bg-neutral-100">
+            <Image
+              src={post.featuredImage}
+              alt={post.featuredImageAlt ?? post.title}
+              fill
+              className="object-cover"
+              sizes="(min-width: 768px) 768px, 100vw"
+              priority
+            />
+          </div>
+        )}
 
         <div className="mt-8 flex flex-col gap-5">
           {post.content.map((paragraph, i) => (
