@@ -382,6 +382,22 @@ export const blogPosts: BlogPost[] = [
       "If dry mouth has been bothering you, or you'd simply like to understand what's behind it, schedule an exam with our team. We'll take a look at your oral tissue and saliva flow, check for any early signs of decay it may already be causing, and help put together a plan that gets your mouth feeling comfortable again.",
     ],
   },
+  {
+    slug: "fluoride-for-teeth-how-it-protects-your-smile",
+    title: "Fluoride for Teeth: How It Protects Your Smile From Cavities",
+    excerpt:
+      "Fluoride strengthens enamel and helps prevent cavities. Here's how it works, where to get it, and how much your smile really needs.",
+    publishedAt: "2026-11-01",
+    author: "Dr. Sarah Bennett, DDS",
+    content: [
+      "If you've ever wondered why your dentist keeps bringing up fluoride, it's because this naturally occurring mineral is one of the most effective tools we have for preventing cavities. Fluoride is found in soil, water, and many foods, and it has been added to public water supplies and dental products for decades because of how reliably it protects teeth. Understanding what fluoride actually does can help you make better choices about your own oral care routine.",
+      "Your tooth enamel is constantly going through tiny cycles of mineral loss and mineral gain. Every time you eat, the bacteria in plaque produce acids that pull minerals out of your enamel, a process called demineralization. Saliva and fluoride work together to reverse this by redepositing minerals back into the enamel, a process called remineralization. Fluoride doesn't just replace what was lost, though — it forms a more acid-resistant mineral called fluorapatite, which makes enamel genuinely stronger and better able to withstand future acid attacks. Fluoride also makes it harder for cavity-causing bacteria to produce acid in the first place, giving it a second line of defense beyond enamel repair.",
+      "Most people get fluoride from more than one source without realizing it. Community water fluoridation, which adjusts the natural fluoride level in public water to a cavity-fighting concentration, is considered one of the most effective public health measures of the last century. Fluoride toothpaste adds a concentrated daily dose right where it's needed, and over-the-counter or prescription mouth rinses can provide extra protection for people at higher risk of decay. During checkups, we can also apply a professional fluoride varnish, which delivers a much higher concentration directly to the tooth surface for a few minutes of added protection.",
+      "Like most things related to health, fluoride is most helpful in the right amount. For adults, a pea-sized amount of fluoride toothpaste twice a day is plenty. For young children, the amount matters more: a smear about the size of a grain of rice is recommended until around age three, moving up to a pea-sized amount after that, with an adult supervising brushing to make sure little ones spit rather than swallow. Getting the amount right helps avoid fluorosis, a cosmetic condition that can cause faint white spots on developing adult teeth if children consistently swallow too much fluoride toothpaste while their teeth are still forming under the gums. Fluorosis doesn't affect tooth strength and is easy to prevent with the right toothpaste amount and a bit of supervision.",
+      "Some patients benefit from extra fluoride beyond what a typical routine provides. This includes people with a history of frequent cavities, dry mouth from medications or certain health conditions, exposed tooth roots from gum recession, or those currently wearing braces, which create more places for plaque to hide. If any of that sounds like you, we can recommend a prescription-strength fluoride toothpaste or rinse, or schedule more frequent in-office varnish applications to keep your enamel as strong as possible.",
+      "Fluoride is simple, well-studied, and remarkably effective at keeping teeth strong when used appropriately. If you're not sure whether your current routine is giving you enough protection, or if it's been a while since your last checkup and cleaning, we'd love to take a look and talk through what makes sense for your smile. Call our office or book online today to schedule your next appointment.",
+    ],
+  },
 ];
 
 export type Review = {
