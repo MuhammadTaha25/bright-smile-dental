@@ -398,6 +398,24 @@ export const blogPosts: BlogPost[] = [
       "Fluoride is simple, well-studied, and remarkably effective at keeping teeth strong when used appropriately. If you're not sure whether your current routine is giving you enough protection, or if it's been a while since your last checkup and cleaning, we'd love to take a look and talk through what makes sense for your smile. Call our office or book online today to schedule your next appointment.",
     ],
   },
+  {
+    slug: "baby-teething-symptoms-signs-and-relief",
+    title: "Baby Teething Symptoms: What to Watch For and How to Help",
+    excerpt:
+      "Teething brings drooling, fussiness, and sore gums. Here's how to spot real teething symptoms, what helps, and when to call the dentist.",
+    publishedAt: "2026-11-02",
+    author: "Dr. Michael Osei, DMD",
+    featuredImage: "/images/blog/baby-teething-symptoms-signs-and-relief.jpg",
+    featuredImageAlt: "Smiling mother holding her baby, who is chewing on a teething ring",
+    content: [
+      "Few milestones test a parent's patience quite like teething. It is one of the most common reasons families bring questions to our office, often before a baby has ever had a dental checkup of their own. While every baby experiences it a little differently, teething symptoms tend to follow a recognizable pattern, and knowing what is normal, and what is not, can save you a lot of guesswork during those first restless nights.",
+      "The most common signs are usually mild and manageable. Increased drooling is often the earliest clue, sometimes appearing weeks before a tooth actually breaks through, along with red or swollen gums that look tender to the touch. Babies frequently chew or gnaw on anything within reach, from fingers to toys to the edge of a crib rail, since counter-pressure on the gums provides real relief. Fussiness, disrupted sleep, a mild rise in temperature, ear-rubbing, and a drool-related rash around the chin and mouth are all common as well. These symptoms typically show up a few days before a tooth emerges and settle down shortly after it breaks through the gum.",
+      "It is just as important to know what teething does not cause, since this is where a lot of myths creep in. A true high fever, persistent diarrhea, vomiting, or a significant drop in appetite are not caused by teething itself, even though the timing can make it tempting to blame a new tooth. If your baby has any of these more serious symptoms, it is worth a call to your pediatrician rather than assuming it will pass with the tooth.",
+      "Teething timelines vary more than most parents expect. The first tooth, usually a lower central incisor, tends to arrive somewhere between four and ten months, though anywhere from three to fourteen months is still considered within the normal range. From there, teeth generally continue in a predictable order: lower and upper central incisors, then lateral incisors, first molars, canines, and finally second molars, with most children having a full set of twenty primary teeth by around age three. A sibling who teethed early or late is not a reliable predictor either way, since the timing is largely individual.",
+      "A few simple approaches bring real comfort during a flare-up. A clean, chilled (not frozen) teething ring or a cold, damp washcloth gives babies something safe to chew on while soothing inflamed gums. Gently rubbing a clean finger along the gumline for a minute or two can help as well, and for babies already eating solids, a firm, cold teething biscuit under supervision is often welcomed. We recommend avoiding numbing teething gels containing benzocaine, which the FDA has warned against for infants and young children, and skipping amber teething necklaces entirely, since they carry a real choking and strangulation risk with little evidence they help. If discomfort seems significant, ask your pediatrician about an appropriate infant pain reliever and the correct dose for your baby's age and weight.",
+      "That first tooth is also your cue to schedule a first dental visit, ideally by your baby's first birthday or within six months of the first tooth appearing, whichever comes first. An early visit lets us check that teeth and gums are developing normally, show you the right brushing technique and fluoride amount for your baby's age, and catch any early decay while it is still simple to manage. If your little one has started teething, or it is time for that first checkup, give our office a call and we will make the visit as easy and reassuring as possible for both of you.",
+    ],
+  },
 ];
 
 export type Review = {
