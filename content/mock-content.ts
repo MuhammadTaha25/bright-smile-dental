@@ -416,6 +416,24 @@ export const blogPosts: BlogPost[] = [
       "That first tooth is also your cue to schedule a first dental visit, ideally by your baby's first birthday or within six months of the first tooth appearing, whichever comes first. An early visit lets us check that teeth and gums are developing normally, show you the right brushing technique and fluoride amount for your baby's age, and catch any early decay while it is still simple to manage. If your little one has started teething, or it is time for that first checkup, give our office a call and we will make the visit as easy and reassuring as possible for both of you.",
     ],
   },
+  {
+    slug: "how-to-care-for-dentures",
+    title: "How to Care for Dentures: Daily Cleaning Tips for a Healthy Smile",
+    excerpt:
+      "Learn how to care for dentures the right way, from daily cleaning to safe overnight storage, so they stay comfortable and last longer.",
+    publishedAt: "2026-11-03",
+    author: "Dr. Sarah Bennett, DDS",
+    featuredImage: "/images/blog/how-to-care-for-dentures.jpg",
+    featuredImageAlt: "Smiling senior woman in a bathroom holding a denture cleaning brush next to a glass of soaking dentures",
+    content: [
+      "Whether you're new to wearing dentures or you've had yours for years, knowing how to care for dentures properly makes a bigger difference than most patients expect. Dentures are a real investment in your smile, your ability to eat comfortably, and your confidence, and the way you clean and store them day to day directly affects how long they last, how well they fit, and how healthy the rest of your mouth stays in the meantime.",
+      "A good daily routine starts with handling your dentures carefully. Rinse them after every meal to clear away loose food particles, and brush them at least once a day with a soft-bristled denture brush and a non-abrasive denture cleanser, never regular toothpaste, which is too abrasive and can create tiny scratches where bacteria and stains collect. Brush every surface, including the parts that fit against your gums, and always hold your dentures over a folded towel or a sink filled with water so a slip doesn't mean a crack or a costly repair.",
+      "Dentures also need the right environment when you're not wearing them. Most dentures are designed to stay moist, so soak them overnight in plain water or a denture-soaking solution rather than letting them sit out and dry, which can cause warping that throws off the fit. Never use hot or boiling water, since heat can distort the denture material permanently. If you use a soaking solution, follow the instructions on the label and give your dentures a thorough rinse before putting them back in your mouth, since some solutions are not meant to be swallowed.",
+      "A few common habits can do real damage, even when they seem harmless. Skip whitening toothpaste, baking soda, and bleach-based cleaners, all of which can wear down or discolor denture material over time, and avoid DIY repairs with household glue if a denture cracks or a clasp loosens, since over-the-counter fixes rarely hold up and can make a proper repair more difficult later. It's also worth giving your gums a break from your dentures for several hours a day, ideally overnight, to let the tissue underneath rest and stay healthy.",
+      "Caring for your mouth matters just as much as caring for the dentures themselves. Even without natural teeth, plaque and bacteria can still build up on your gums, tongue, and the roof of your mouth, so gently brushing those areas with a soft toothbrush each day helps keep your mouth healthy and improves circulation in the tissue that supports your denture. It's also normal for your gums and jawbone to change shape gradually over months and years, which can make a once well-fitting denture start to feel loose, cause sore spots, or make chewing less comfortable. That's a sign it may be time for an adjustment or a reline rather than something to push through.",
+      "If your dentures feel loose, uncomfortable, or you notice any irritation that doesn't clear up in a day or two, don't wait to get it checked. Regular checkups let us make sure your dentures still fit well and that your gums and any remaining oral tissue are healthy. Give our office a call or book online, and we'll make sure your smile stays comfortable, confident, and well cared for.",
+    ],
+  },
 ];
 
 export type Review = {
